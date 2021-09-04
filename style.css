@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #95DAC1;
+    z-index: 1;
+    position: relative;
+    top: -25px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+hr {
+    color: black;
+}
+
+.cizgi {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 30px;
+    z-index: -1;
+}
+
+#firstPage {
+    background-color: #95DAC1;
+    height: 100vh;
+    max-width: 100vw;
+}
+
+#navbar {
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .brand {
+    font-size: 30px;
+    padding: 30px 40px;
+    text-transform: uppercase;
+    letter-spacing: .07rem;
+    color: white;
+}
+
+#navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar nav ul li {
+    padding: 35px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#firstPage {
+    height: 120vh;
+}
+
+#firstPage .content h1 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+#firstPage .first {}
+
+#firstPage .my-image img {
+    height: 300px;
+    margin-top: 100px;
+}
+
+#firstPage .my-image .center {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#firstPage .content {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    margin-top: 100px;
+}
+
+#firstPage .content h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+#portfolio {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+#portfolio h1 {
+    color: black;
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+#portfolio .portfolio h1 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.portfolio {
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio i {
+    background: #f2f2f2;
+    color: black;
+}
+
+.cardss {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.cardss img {
+    cursor: pointer;
+}
+
+.cardss img:hover {
+    opacity: .7;
+}
+
+#about {
+    background-color: #95DAC1;
+    height: 100%;
+}
+
+#about .about {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+#about .about h1 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+#about .para {
+    width: 400px;
+    color: white;
+    font-size: 25px;
+}
+
+#about .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+#about .button button {
+    padding: 20px 40px;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#about .button button:hover {
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+
+#contact {
+    background-color: #f2f2f2;
+}
+
+#contact .contact h1 {
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 40px;
+    font-weight: 650;
+}
+
+#contact .contact {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#contact .contact .icon {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#contact form input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    padding: 20px 0;
+    background: transparent;
+    font-size: 40px;
+}
+
+#contact form textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    background: transparent;
+    font-size: 40px;
+    height: 200px;
+}
+
+#contact button {
+    font-size: 40px;
+    padding: 20px 40px;
+    background-color: #77e2bb;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+#contact .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#contact .buttons button:hover {
+    opacity: .7;
+}
+
+#footer {
+    background: #2c3e50;
+    height: 80vh;
+}
+
+#footer .col {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#footer h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#footer address {
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+#footer ul li a {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#footer .container ul li a i {
+    margin-bottom: 10px;
+}
+
+#footer li a:hover {
+    transition: 0.5s;
+    color: #2c3e50;
+    background-color: white;
+}
+
+#footer p {
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#footer .copy {
+    height: 100px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+#footer .copy .copy1 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 35px;
+}
