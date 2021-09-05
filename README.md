@@ -1,3 +1,3 @@
 # WebSite
-- HTML ve CSS kullanarak Web sitesi klonladım.
+- HTML, CSS ve Bootstrap'i kullanarak Web sitesi klonladım.
 - Tasarım bana ait değildir.
